@@ -1,0 +1,35 @@
+{
+  "name": "paper-select",
+  "version": "1.0.0",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "An element providing a solution to no problem in particular.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "seed"
+  ],
+  "main": "paper-select.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "paper-input": "PolymerElements/paper-input#^1.0.0",
+    "iron-dropdown": "PolymerElements/iron-dropdown",
+    "iron-icon": "PolymerElements/iron-icon",
+    "paper-menu": "PolymerElements/paper-menu",
+    "paper-item": "PolymerElements/paper-item",
+    "iron-iconset": "PolymerElements/iron-iconset#~1.0.2"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
